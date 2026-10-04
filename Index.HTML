@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GeoFS Autopilot Prototype</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
 
+<div id="fmaPanel">
+    <span id="speedMode"></span>
+    <span id="lateralMode"></span>
+    <span id="verticalMode"></span>
+</div>
+
+  <div class="button-zone" id="autopilot"><button class="toggleButton" id="apButton">Autopilot</button></div>
+  
+
+  <div class="knob-zone" id="headingZone">
+  <div class="knob" id="headingKnob"></div>
+  <div class="display" id="headingDisplay">180</div>
+</div>
+
+
+<div class="button-zone" id="nav"><button class="toggleButton" id="navButton">NAV</button></div>
+<div class="button-zone" id="hdg"><button class="toggleButton" id="hdgButton">HDG</button></div>
+
+
+<div class="knob-zone" id="altitude">
+  <div class="knob" id="altitudeKnob"></div>
+  <div class="display" id="altitudeDisplay">10000</div>
+</div>
+
+
+<div class="knob-zone" id="speed">
+  <div class="knob" id="speedKnob"></div>
+  <div class="display" id="speedDisplay">100</div>
+</div>
+
+
+<div class="knob-zone" id="verticalSpeed">
+  <div class="knob" id="verticalSpeedKnob"></div>
+  <div class="display" id="verticalSpeedDisplay">0</div>
+</div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
